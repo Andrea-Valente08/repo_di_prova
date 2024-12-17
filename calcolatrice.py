@@ -1,4 +1,3 @@
-scelta=-1
 while(true):
     print("Benvenuto nella nostra calcolatrice")
     print("Inserisci l'operazione che vuoi effettuare")
