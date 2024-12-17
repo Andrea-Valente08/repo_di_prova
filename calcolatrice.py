@@ -1,3 +1,11 @@
+def Somma():
+    n_1 =int(input("Inserisci il primo numero"))
+    n_2 =int(input("Inserisci il secondo numero"))
+    print(f"{n_1} + {n_2} = {n_1 + n_2}")
+def Sottrazzione:
+    n_1 =int(input("Inserisci il primo numero"))
+    n_2 =int(input("Inserisci il secondo numero"))
+    print(f"{n_1} - {n_2} = {n_1 - n_2}")
 while(true):
     print("Benvenuto nella nostra calcolatrice")
     print("Inserisci l'operazione che vuoi effettuare")
@@ -6,10 +14,8 @@ while(true):
         print("Grazie per aver usato la nostra calcolatrice, a presto!")
         break
     if scelta==1:
-        n_1 =int(input("Inserisci il primo numero"))
-        n_2 =int(input("Inserisci il secondo numero"))
-        print(f"{n_1} - {n_2} = {n_1 - n_2}")
+        Sottrazione()
     elif scelta==2:
-        pass
+        Somma()
     else:
         print("Scelta non corretta!")
